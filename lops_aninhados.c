@@ -2,8 +2,6 @@
 int main()
 {
 
-
-
     for (int i = 35; i <= 60; i++)
     {
 
