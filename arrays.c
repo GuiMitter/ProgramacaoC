@@ -12,6 +12,16 @@ void main(){
 
     }
     
+    int index;
+
+    char * nomesAlunos[3][3]={
+        {"Aluno 0","20","50"},
+        {"Aluno 1","25","55"},
+        {"Aluno 2","30","60"}
+
+    };
+    scanf("%d",&index);
+    printf("As notas do %s são %s, %s ... \n", nomesAlunos[index][0],nomesAlunos[index][1],nomesAlunos[index][2]);
     
 
 
